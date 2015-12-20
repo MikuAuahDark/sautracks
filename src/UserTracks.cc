@@ -10,7 +10,7 @@ Writes sa-ufiles.dat and sa-utrax.dat from file list
 #include <stdexcept>
 
 #include <Windows.h>
-#include <ShlObj.h>
+#include <shlobj.h>
 
 LPSTR myDocumentsPath=nullptr;
 LPSTR uTraxPath=nullptr;
@@ -45,7 +45,7 @@ void __initMyDocumentsPath()
 	strcat(uFilesPath,"\\GTA San Andreas User Files\\sa-ufiles.dat");
 }
 
-errno_t UserTracksSave(std::vector<const char*> fileList)
+int UserTracksSave(std::vector<const char*> fileList)
 {
 	__initMyDocumentsPath();
 
@@ -114,7 +114,7 @@ errno_t UserTracksSave(std::vector<const char*> fileList)
 	return 0;
 }
 
-errno_t UserTracksSave(std::vector<std::string> fileList)
+int UserTracksSave(std::vector<std::string> fileList)
 {
 	std::vector<const char*> files;
 

@@ -3,6 +3,7 @@ Main.cc
 The GUI and the program core is in here
 */
 
+#include <cstdio>
 #include <cstdlib>
 #include <cerrno>
 #include <string>
