@@ -1,6 +1,6 @@
 1 VERSIONINFO
-FILEVERSION		1,0,0,0
-PRODUCTVERSION	1,0,0,0
+FILEVERSION		1,0,1,0
+PRODUCTVERSION	1,0,1,0
 FILEFLAGSMASK 0x17L
 FILEOS 0x40004L
 FILETYPE 0x1L
@@ -12,12 +12,12 @@ BEGIN
 		BEGIN
 			VALUE "CompanyName", "Dark Energy Processor Corporation"
 			VALUE "FileDescription", "San Andreas User Tracks Generator"
-			VALUE "FileVersion", "1.0.0.0"
+			VALUE "FileVersion", "1.0.1.0"
 			VALUE "InternalName", "sautracks"
-			VALUE "LegalCopyright", "Copyright © 2036 Dark Energy Processor Corporation"
+			VALUE "LegalCopyright", "Copyright © 2040 Dark Energy Processor Corporation"
 			VALUE "OriginalFilename", "sautracks.exe"
 			VALUE "ProductName", "sautracks"
-			VALUE "ProductVersion", "1.0.0.0"
+			VALUE "ProductVersion", "1.0.1.0"
 		END
 	END
 	BLOCK "VarFileInfo"
